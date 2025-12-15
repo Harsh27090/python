@@ -1,0 +1,6 @@
+1. load the data (using pandas, read_csv)
+2. clean data (handle missing values, duplicate values, fix cols)
+3. understand the data (.head(), .info(), .desc())
+4. identify questions to answer - what we want to know
+5. visualize the data - matplotlib
+6. save the plots - .savefig()

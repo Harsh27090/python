@@ -1,0 +1,7 @@
+NaN - (Not a Number)
+None - (for object datatype)
+
+isnull():
+True - value is missing
+False - value is present
+

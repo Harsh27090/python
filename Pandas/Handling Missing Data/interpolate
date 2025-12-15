@@ -1,0 +1,17 @@
+.interpolate()
+- replaces missing values with an estimated value
+10
+20
+None
+40
+50
+- replaces none by 30
+
+it uses method like linear interpolation
+
+- reduce data loss
+- preserve data integrity
+- smooth trends
+
+df.interpolate(method="Method_Name")
+- linear,polynomial,time

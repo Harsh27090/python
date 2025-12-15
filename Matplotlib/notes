@@ -1,0 +1,48 @@
+visualization:
+- easy to analyse data
+
+without visualization:
+- manual scan
+- time
+- very difficult for large datasets
+
+- conversion of boring data (numbers,text,etc.) into colourful graphs, charts, bars etc.
+
+uses:
+- data science
+- business/marketing
+- healthcare
+- finance
+- education
+- govt./policy
+
+- picture speaks louder than numbers
+
+libraries for data visualization:
+- matplotlib
+- seaborn
+- plotly
+- pandas(plot)
+- bokeh
+
+advantages:
+- saves time
+- easy communication
+- spot trends and patterns
+- better decision making
+- handles big data well
+
+points to remember:
+- images 60,000 times better understood than tech
+- may lie if you have done any mistakes
+- color choosing is important
+- 90% big data fails due to lack of visualization
+- Miller's law - your brain can hold 7 pieces of info. at once
+
+- line graph: find trend/pattern
+- custom graphics
+
+- bar chart: category comparison, data analysis
+- pie chart: proportion illustration, whole representation
+- histogram: numerical distribution, data insights
+- scatter plot: relationship between x and y

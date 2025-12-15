@@ -1,0 +1,13 @@
+data= {
+    "time":[1,2,3,4,5]
+    "val": [10,20,None,40,50]
+}
+replace None by 30
+
+used for:
+- timer series
+- numeric data with trends
+- avoid dropping rows
+
+disadvantage:
+cannot be used for categorical data like name

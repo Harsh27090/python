@@ -1,0 +1,17 @@
+1. select specific columns
+2. filter rows
+3. combine multiple conditions
+
+1. square bracket
+2. boolean conditions
+
+1. select columns;
+-selecting one column returns a series
+-selecting multiple columns return a dataframe
+
+column = df["Col_Name"]
+column = df[["Col1_Name", "Col2_Name", ...]]
+
+2. filtering rows
+row = df[df["Col_Name"]>value]
+row = df[(df["Col_Name"]>value) & (df["Col_Name"]>value)]
