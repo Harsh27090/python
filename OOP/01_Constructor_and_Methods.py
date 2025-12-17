@@ -13,6 +13,7 @@ class Car:
     #     self.brand = brand
     #     self.color = color
 
+    # method
     def show_details(self):
         print(f'Brand: {self.brand}, Color: {self.color}')
 

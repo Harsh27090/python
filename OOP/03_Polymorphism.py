@@ -21,6 +21,8 @@ bird1.sound()
 bird2.sound()
 bird3.sound()
 
+# python doesn't support method overloading (methods with same name in a class)
+
 # operators
 print(10+5)
 print('Hello'+'World')
