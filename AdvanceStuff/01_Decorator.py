@@ -1,35 +1,39 @@
+# decorator is used to decorate a function, to add some basic details
+
 class Animal:
-    @property
+    @property # built-in decorator
     def show(self):
         print('I am an animal')
 
 obj1 = Animal()
 obj1.show
 
-def decorate(func):
+# 1.
+def msg(func):
     def wrapper():
         print('I will run before calling function')
         func()
-        print('I will run after calling function')
+        print('I will run after calling function\n')
 
     return wrapper
 
-@decorate
+@msg
 def hello():
     print('Hello! I am Harsh Chauhan')
 
-hello()
 
-def decorate(func):
+def addition(func):
     def wrapper(a,b):
         print('I will run before calling function')
         func(a,b)
-        print('I will run after calling function')
+        print('I will run after calling function\n')
 
     return wrapper
 
-@decorate
+@addition
 def addition(a,b):
     print(f'Addition is {a+b}')
 
+hello()
 addition(2,3)
+
