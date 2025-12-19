@@ -27,3 +27,7 @@ s1.add(7)
 print(s1)
 
 # s1.pop() -> removes a random element
+
+# set comprehension
+divisors = {i for i in range(1,11) if 10%i==0}
+print(divisors)

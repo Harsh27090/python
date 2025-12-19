@@ -50,5 +50,5 @@ a = list(range(1,20,2))
 print(a)
 
 # list compression
-squares = [i**2 for i in range(1,11) if i%2==0]
+squares = [i**2 for i in range(1,11,2) if i%2==0]
 print(squares)
