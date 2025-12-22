@@ -5,7 +5,7 @@
 '''
 import random
 
-choice = input('s for snake, g for gun, w for water:')
+choice = input('s for snake, g for gun, w for water:').lower()
 computer = random.randint(-1,1)
 l = {'s': 1, 'g': 0, 'w': -1}
 
