@@ -1,6 +1,6 @@
 """
-.ravel() -> modify
-.flatten() -> does not modify
+.ravel() -> just a view, affects original array
+.flatten() -> returns a copy, does not affect original array
 """
 
 import numpy as np
