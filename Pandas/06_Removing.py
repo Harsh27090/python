@@ -17,3 +17,5 @@ print(df)
 # False, returns a new df
 df.drop(columns= ["City"], inplace = True)
 print(df)
+df.drop(["Grade"], axis=1, inplace = True)
+print(df)

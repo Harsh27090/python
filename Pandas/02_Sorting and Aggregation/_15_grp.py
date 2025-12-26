@@ -20,3 +20,5 @@ mean()
 std()
 count()
 """
+
+print(df['Salary'].agg(['sum', 'min', 'max', 'mean', 'std']))

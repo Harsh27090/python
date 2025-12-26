@@ -10,5 +10,9 @@ data= {
 
 df= pd.DataFrame(data)
 print(df)
-print(df.isnull())
+print(df.isna())
+print(df.isna().sum())
+print(df.isnull()) # isna = isnull, you can use whichever you want
+print(df.isnull().sum())
+print(df.isna().any())
 

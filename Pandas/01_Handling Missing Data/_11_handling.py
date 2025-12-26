@@ -15,6 +15,7 @@ print(df)
 # .dropna(axis=0/1, inplace=True/False), 0->row, 1->column
 # df.dropna(axis=0, inplace=True)
 # print(df)
+# df.dropna(thresh=2, inplace=True) # it means cols with more than 2 missing values will be removed
 
 #2. .fillna(): the missing value is replaced by the provided value
 # .fillna(value, inplace=True/False)
