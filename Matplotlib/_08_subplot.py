@@ -17,11 +17,11 @@ import matplotlib.pyplot as plt
 x = [1,2,3,4,5]
 y = [10,15,20,18,25]
 
-plt.subplot(1,2,1)
+plt.subplot(2,2,1)
 plt.plot(x,y)
 plt.title('Line Graph')
 
-plt.subplot(1,2,2)
+plt.subplot(2,2,4)
 plt.bar(x,y)
 plt.title('Bar Chart')
 
