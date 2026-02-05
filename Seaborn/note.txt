@@ -1,0 +1,7 @@
+1. Distribution plots: used for quantitative data (age, salary, etc.)
+- distplot/histplot
+- joinplot
+- pairplot
+- rugplot
+
+2. Categorical plots: used for qualitative data (categorical data) (gender, genre, martial status)
