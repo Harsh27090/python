@@ -18,3 +18,8 @@
 - heatmap
 - clustermap
 - heatmap with pivot table
+
+4. Regression plots: used in machine learning algorithms
+- lmplot: plots a best-fit line in a scatterplot
+          x->data using which you want to predict the data, y->data which you want to predict
+
