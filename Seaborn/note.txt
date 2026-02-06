@@ -1,7 +1,20 @@
-1. Distribution plots: used for quantitative data (age, salary, etc.)
-- distplot/histplot
-- joinplot
-- pairplot
-- rugplot
+1. Distribution plots: used for quantitative data (numerical data) (age, salary, etc.)
+- displot/histplot: for 1 quantitative column
+- jointplot: for comparing 2 quantitative column
+- pairplot: for comparing all quantitative column in a dataset
+- rugplot: not much useful
 
 2. Categorical plots: used for qualitative data (categorical data) (gender, genre, martial status)
+- countplot: shows the number of occurrences of each category in a categorical (qualitative) variable.
+- barplot: shows the average (or another statistic) of a quantitative variable for each category
+            x->qualitative, y->quantitative
+- boxplot: shows how data is spread and where most values lie, including median and outliers.
+           x->quantitative, y->qualitative
+- violinplot: shows how data is distributed and where values are more concentrated.
+- stripplot: similar to boxplot but with scatter
+- swarmplot: similar to violinplot but with scatter
+
+3. Matrix plots:
+- heatmap
+- clustermap
+- heatmap with pivot table
